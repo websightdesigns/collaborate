@@ -1,0 +1,22 @@
+config.php
+
+# Linux OS
+.swp.*
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+sftp-config.json
+sftp-config-*.json
+
+# Misc
+_offline
+_backups

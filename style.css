@@ -1,0 +1,69 @@
+html, body {
+	margin: 0;
+	padding: 0 1em;
+}
+body {
+	background: #333;
+	font-family: Tahoma, 'Myriad-Pro', 'Myriad', helvetica, arial, sans-serif;
+}
+h1 { display: none; }
+pre { padding: 0.3em; color: #000; background: #fff; width: 95%; }
+a, div { color: #fff; }
+.headerimg {
+	float: left;
+	clear: none;
+	margin-top: -18px;
+	margin-left: -34px;
+}
+#editor {
+	position: absolute;
+	top: 52px;
+	right: 60px;
+	bottom: 20px;
+	left: 0;
+	overflow: hidden;
+}
+#menu li {
+	float: left;
+	clear: none;
+	display: block;
+	color: #333;
+}
+#fileselectform {
+	float: left;
+	clear: none;
+	margin-left: 2em;
+}
+#settingslink {
+	float: right;
+	clear: none;
+}
+.chzn-container .chzn-results { color: #333; }
+#newfileform {
+	float: left;
+	clear: none;
+	display: none;
+	margin-left: 2em;
+}
+.filelisting {
+	padding: 0.5em 0.5em 0.5em 1.5em;
+}
+.delete {
+	float: left;
+	clear: none;
+	margin-left: -1.5em;
+	display: none;
+}
+#github {
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	font-size: 75%;
+}
+/* togetherjs */
+#togetherjs-menu,
+.togetherjs,
+.togetherjs p,
+#togetherjs-menu .togetherjs-menu-item,
+#togetherjs-menu .togetherjs-person-name-self,
+.togetherjs .togetherjs-chat-content { color: #666; }
