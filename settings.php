@@ -32,7 +32,7 @@
 		<h2>Files</h2>
 		<?php
 			if($link) {
-				$sql = "SELECT id, filename FROM colab ORDER BY updated DESC";
+				$sql = "SELECT id, filename FROM " . $mysqltbl . " ORDER BY updated DESC";
 				$query = mysql_query($sql) or die(mysql_error());
 				$numrows = mysql_num_rows($query);
 				if($numrows):

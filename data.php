@@ -167,7 +167,7 @@
 			return $_GET['filename'];
 		} else {
 			if($link) {
-				$sql = "SELECT id, filename FROM colab ORDER BY updated DESC LIMIT 1";
+				$sql = "SELECT id, filename FROM " . $mysqltbl . " ORDER BY updated DESC LIMIT 1";
 				$query = mysql_query($sql) or die(mysql_error() . ' [data.php]');
 				$numrows = mysql_num_rows($query);
 				if($numrows):
