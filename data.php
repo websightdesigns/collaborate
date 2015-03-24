@@ -162,7 +162,7 @@
 	 * @param  arr $link The MySQL link
 	 * @return str       The filename of the current file
 	 */
-	function getCurrentFile($link) {
+	function getCurrentFile($link, $mysqltbl) {
 		if( isset($_GET['filename']) && $_GET['filename'] ) {
 			return $_GET['filename'];
 		} else {

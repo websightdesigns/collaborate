@@ -3,7 +3,7 @@
 	$link = mysql_connect($mysqlhost . ":" . $mysqlport, $mysqluser, $mysqlpass) or die("Could not connect to server: " . $_SERVER['SCRIPT_NAME']);
 	mysql_select_db($mysqldb) or die("Could not select database: " . $_SERVER['SCRIPT_NAME']);
 	require_once('data.php');
-	$curfile = getCurrentFile($link);
+	$curfile = getCurrentFile($link, $mysqltbl);
 	$curext = getFileExtension($curfile);
 	$webroot = str_replace("index.php", "", $_SERVER['SCRIPT_NAME']);
 ?><!DOCTYPE html>
