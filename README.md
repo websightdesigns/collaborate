@@ -23,6 +23,10 @@ To install the app, copy over the `example.config.php` file to `config.php` and 
 - [jQuery](http://jquery.com/) - jQuery 1.9.0
 - [Chosen plugin](http://harvesthq.github.io/chosen/) - Chosen plugin by Harvest
 
+# To Do
+
+- Use bootstrap for page layout
+
 # More Information
 
 Visit the webSIGHTdesigns website at [http://websightdesigns.com/](http://websightdesigns.com/)
