@@ -14,7 +14,7 @@ This web application is intended to be cloned and placed on a web server running
 
 # Install
 
-To install the app simply copy over the `example.config.php` file to `config.php` and set your MySQL login information in `config.php`.
+To install the app, copy over the `example.config.php` file to `config.php` and set your MySQL login information in `config.php`. Then use the SQL in `install.sql` to create the database. This example uses the table name `colab` but you can change this to another table name if you like.
 
 # Tools Used
 
